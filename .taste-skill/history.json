@@ -1,0 +1,20 @@
+{
+ "palettes": [
+  "white-navy-tab"
+ ],
+ "types": [
+  "urbanist"
+ ],
+ "dealt": [
+  "urbanist",
+  "mona",
+  "schibsted"
+ ],
+ "moments": [
+  {
+   "id": "word-highlight",
+   "at": "2026-11-25T07:54:26.441Z",
+   "seed": "319b5c4d"
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+  "name": "RoomLattice",
+  "primary": "Request a pilot",
+  "accent": "#f7941d",
+  "ink": "#1f2b4d",
+  "bg": "#ffffff",
+  "surface": "#f4f4f2",
+  "fontLink": "<link href=\"https://fonts.googleapis.com/css2?family=Urbanist:wght@400..700&family=DM+Mono:wght@400;500&display=swap\" rel=\"stylesheet\">",
+  "fontDisplay": "\"Urbanist\", system-ui, sans-serif",
+  "fontText": "\"Urbanist\", system-ui, sans-serif",
+  "client": "Victoria Island hotel, Lagos",
+  "note": "A fixed hotel of 120 rooms. Results here come from fixed data in your browser; no AI service is called.",
+  "tabs": {
+    "overview": "Today",
+    "records": "Rooms",
+    "queue": "Plans to approve"
+  },
+  "overview": {
+    "title": "Friday at the Victoria Island hotel",
+    "kpis": [
+      [
+        "Check-ins",
+        "64"
+      ],
+      [
+        "Departures",
+        "51"
+      ],
+      [
+        "Cleaning hours",
+        "61"
+      ],
+      [
+        "Attendants needed",
+        "9"
+      ]
+    ],
+    "chart": {
+      "title": "Rooms due per hour before check-in",
+      "labels": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "values": [
+        4,
+        7,
+        11,
+        14,
+        12,
+        8,
+        5,
+        3
+      ],
+      "threshold": 10,
+      "thresholdLabel": "Team capacity 10 an hour",
+      "caption": "Hours above the line need more attendants or an earlier start."
+    }
+  },
+  "records": {
+    "title": "Rooms",
+    "searchHint": "Room or floor",
+    "statusCol": 3,
+    "columns": [
+      "Room",
+      "Type",
+      "Arrival",
+      "Status",
+      "Clean time",
+      "Due by"
+    ],
+    "tones": {
+      "Late": "bad",
+      "Cleaning": "warn",
+      "Ready": "good"
+    },
+    "rows": [
+      [
+        "312",
+        "King",
+        "13:00",
+        "Late",
+        "45 min",
+        "12:30"
+      ],
+      [
+        "314",
+        "Twin",
+        "14:00",
+        "Cleaning",
+        "35 min",
+        "13:30"
+      ],
+      [
+        "320",
+        "King",
+        "14:00",
+        "Cleaning",
+        "40 min",
+        "13:30"
+      ],
+      [
+        "401",
+        "Suite",
+        "15:30",
+        "Ready",
+        "60 min",
+        "15:00"
+      ],
+      [
+        "405",
+        "King",
+        "16:00",
+        "Ready",
+        "40 min",
+        "15:30"
+      ],
+      [
+        "410",
+        "Twin",
+        "17:00",
+        "Ready",
+        "35 min",
+        "16:30"
+      ],
+      [
+        "418",
+        "King",
+        "18:00",
+        "Ready",
+        "40 min",
+        "17:30"
+      ]
+    ]
+  },
+  "queue": {
+    "title": "Plans waiting for a manager",
+    "lead": "Each plan lists the forecast behind it. Nothing changes until a manager approves.",
+    "items": [
+      {
+        "id": "fri",
+        "title": "Nine attendants on Friday morning",
+        "detail": "One more than the usual roster.",
+        "reason": "61 cleaning hours forecast against 54 for eight attendants."
+      },
+      {
+        "id": "f3",
+        "title": "Clean floor 3 departures first",
+        "detail": "14 rooms with arrivals before 14:00.",
+        "reason": "Floor 3 holds most early check-ins on Friday."
+      },
+      {
+        "id": "sat",
+        "title": "Extra breakfast staff on Saturday",
+        "detail": "Two servers from 07:00 to 10:00.",
+        "reason": "A conference block of 40 rooms checks in Friday."
+      },
+      {
+        "id": "lin",
+        "title": "Linen delivery moved to 09:00",
+        "detail": "From 11:00.",
+        "reason": "The morning shift runs short of sheets by 10:30 on busy Fridays."
+      }
+    ]
+  }
+}
